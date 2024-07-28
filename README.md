@@ -1,6 +1,17 @@
 # CursorSpectrum
 
 A software which enables interactive interpretation of mapping Raman spectra
+## Requirements
+```
+conda create -n CS python=3.8
+pip install opencv-python==4.5.3.56
+pip install numpy==1.21.2
+pip install pandas==1.3.3
+pip install seaborn==0.11.2
+pip install matplotlib==3.4.3
+pip install soundfile==0.10.3.post1
+conda install pyaudio==0.2.11
+```
 ## How to use
 1. Run main.py file
 2. Load Matrix data (txt file )
